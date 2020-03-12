@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+body {
+  background-color: #322C2C;
+  font-family: arial;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+#main {
+  margin: auto;
+  max-width: 900px;
+  background-color: #FFFFFF;
+}
+
+#img-div {
+  margin: auto;
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+#tribute-info {
+  padding: 10px;
+}
+
+.para-head {
+  padding: 10px;
+  text-align: center;
+}
+
+q {
+  margin: 10px;
+  font-style: italic;
+  padding: 20px;
+}
+
+p {
+  margin: 20px;
+
+}
+
+.songbox {
+  margin: 30px;
+  padding: 20px;
+  background-color: #EFEDE1;
+
+}
+
+.song-head {
+  margin: 10px;
+  text-align: center;
+}
+
+.song-artist {
+  margin: 10px;
+  text-align: center;
+}
+
+.lyrics > p {
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  background-color: #000000;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+footer p a {
+  color: #EFEDE1;
+}
